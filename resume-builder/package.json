@@ -1,0 +1,46 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "AI-powered resume builder using LinkedIn, GitHub, and uploaded documents",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.32.1",
+  "dependencies": {
+    "@google-cloud/storage": "^7.16.0",
+    "@react-pdf/renderer": "^4.5.1",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@tanstack/react-query": "^5.96.2",
+    "@types/node": "^25.5.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "apify-client": "^2.11.2",
+    "autoprefixer": "^10.4.27",
+    "framer-motion": "^12.38.0",
+    "mammoth": "^1.9.0",
+    "nanoid": "^5.1.7",
+    "next": "^16.2.2",
+    "openai": "^6.33.0",
+    "pdf-parse": "^2.4.5",
+    "pdf-parse-new": "^2.0.0",
+    "pdfjs-dist": "^4.10.38",
+    "postcss": "^8.5.8",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.2",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@types/pdf-parse": "^1.1.5",
+    "eslint": "^10.2.0",
+    "eslint-config-next": "^16.2.2"
+  }
+}
