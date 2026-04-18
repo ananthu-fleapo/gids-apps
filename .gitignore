@@ -1,7 +1,8 @@
 resume-builder-old
-invoice-processor
+sql-architect
 
 .env.local
 node_modules
 .next
 key.json
+

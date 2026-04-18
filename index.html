@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>The AI Masterclass - Chris Do</title>
+
+    <!-- Speed Boost: Preconnect is good, but "preload" is faster for the specific URL -->
+    <link
+      rel="preload"
+      href="https://future-ai-masterclass.lovable.app"
+      as="document"
+    />
+    <link
+      rel="preconnect"
+      href="https://future-ai-masterclass.lovable.app"
+      crossorigin
+    />
+
+    <link
+      rel="icon"
+      href="https://tagmango.com/staticassets/-630c8a92c693d29110158998_logocirclecolored-85cf5236e4ff723b0aaee5f9a10ad007.png"
+    />
+
+    <!-- Replace standard preload with modulepreload for the JS files -->
+    <link rel="modulepreload" href="https://lovable.app" />
+    <link rel="modulepreload" href="https://lovable.app" />
+
+    <!-- For CSS, ensure you use the crossorigin attribute -->
+    <link
+      rel="preload"
+      href="https://lovable.app"
+      as="style"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      /* Eliminate all margin/padding to prevent calculation lag */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        background-color: #000; /* Match app background to hide loading flash */
+      }
+
+      /* Force iframe to occupy 100% of the viewport immediately */
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      src="https://future-ai-masterclass.lovable.app"
+      loading="eager"
+      fetchpriority="high"
+      allow="
+        accelerometer;
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        gyroscope;
+        picture-in-picture;
+      "
+      allowfullscreen
+    >
+    </iframe>
+  </body>
+</html>

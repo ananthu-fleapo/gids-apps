@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "screen-sync",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "3005"],
+      "port": 3005,
+      "cwd": "/Users/ananthu/Documents/work/ai-fiesta/applications/screen-sync"
+    }
+  ]
+}
