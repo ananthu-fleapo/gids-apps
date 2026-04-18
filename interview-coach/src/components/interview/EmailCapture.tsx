@@ -37,7 +37,7 @@ export default function EmailCapture({ session, onDone }: Props) {
         body: JSON.stringify({
           email: values.email,
           sessionId: session.sessionId,
-          nickname: session.nickname,
+          nickname: "Anonymous",
           mode: session.mode,
           answers: session.answers,
           finalScore: session.finalScore,
